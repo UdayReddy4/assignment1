@@ -54,10 +54,10 @@ class Graph {
     }
   }
   
- // Example usage:
+ //  example input :
   const graph = new Graph();
   
-  // Adding vertices
+
   graph.addVertex('I');
   graph.addVertex('G');
   graph.addVertex('C');
@@ -73,6 +73,6 @@ class Graph {
   
  console.log(graph.dfs('E')); // Output:  ['A', 'C', 'E', 'G', 'I' ]
  console.log(graph.searchVertex('C')); // Output: 'A'
- console.log(graph.searchVertex('F')); // Output: null
+ console.log(graph.searchVertex('F')); // Output: THE GIVEN VERTEX IS NOT DEFINED"
 
 module.exports =Graph;
