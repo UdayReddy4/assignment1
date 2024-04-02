@@ -34,7 +34,7 @@ describe('Graph', () => {
     });
 
     test('should return "THE GIVEN VERTEX IS NOT DEFINED" if the vertex is not found', () => {
-      expect(graph.searchVertex('F')).toBe('THE GIVEN VERTEX IS NOTDEFINED');
+      expect(graph.searchVertex('F')).toBe('THE GIVEN VERTEX IS NOT DEFINED');
     });
   });
 });
